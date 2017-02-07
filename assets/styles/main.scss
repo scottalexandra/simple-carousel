@@ -1,0 +1,54 @@
+.arrow-btn {
+  color: white;
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  z-index: 2;
+
+  &:hover {
+    text-decoration: none;
+    cursor: pointer;
+  }
+}
+
+#arrow-right {
+  right: 5px;
+}
+
+#arrow-left {
+  left: 5px;
+}
+
+.carousel {
+  border: 1px solid gray;
+  overflow: hidden;
+  position: relative;
+}
+
+.slides-container {
+  height: 400px;
+  overflow: hidden;
+}
+
+.slide {
+  display: inline-block;
+  height: 400px;
+  position: absolute;
+  width: 100%;
+}
+
+#slide-0 {
+  background-color: blue;
+}
+
+#slide-1 {
+  background-color: red;
+}
+
+#slide-2 {
+  background-color: green;
+}
+
+#slide-3 {
+  background-color: magenta;
+}
